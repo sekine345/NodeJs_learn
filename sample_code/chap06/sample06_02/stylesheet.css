@@ -1,0 +1,24 @@
+#div1 {
+  float: top;
+  padding-left: 10px;
+  width: 100% - 10px;
+  height: 60px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #aaa;
+  color: #0000ff;
+  box-shadow: 8px 8px 5px #888;
+}
+#div2 {
+  float: top;
+  height: 10px;
+}
+#aaa,#bbb,#ccc,#ddd,#eee,#fff {
+  background: #e00;
+  border-radius: 4px;
+  margin: 3px;
+  width: 80px;
+  height: 60px;
+  float: left;
+}

@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "sample03_01",
+            "file": "${workspaceFolder}/sample03_01/index.html"
+        },
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "sample03_04",
+            "file": "${workspaceFolder}/sample03_04/index.html"
+        },
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "sample03_05",
+            "file": "${workspaceFolder}/sample03_05/index.html"
+        },
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "sample03_06",
+            "file": "${workspaceFolder}/sample03_06/index.html"
+        },
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "sample03_07",
+            "file": "${workspaceFolder}/sample03_07/index.html"
+        }
+    ]
+}
