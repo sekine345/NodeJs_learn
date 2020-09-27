@@ -31,6 +31,24 @@
             "request": "launch",
             "name": "program02_06.js",
             "program": "${workspaceFolder}/program02_06.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "learn_2-1.js",
+            "program": "${workspaceFolder}/learn_2-1.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "learn_2-2.js",
+            "program": "${workspaceFolder}/learn_2-2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "learn_2-5.js",
+            "program": "${workspaceFolder}/learn_2-5.js"
         }
     ]
 }
