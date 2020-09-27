@@ -18,12 +18,12 @@ function draw_canvas() {
   c1.rect(260,260,150,150);
   c1.strokeStyle = 'rgb(0,255,255)';
   c1.lineWidth = 5;
-  c1.stroke();
+  c1.stroke(); // 輪郭線を描画
 
   // 黄色い半円
   // x=250, y=250, radius=10
   c1.beginPath();
-  c1.arc(250,250,40,Math.PI*0.75,Math.PI * 1.75,false);
+  c1.arc(250,250,40,Math.PI*0.75,Math.PI * 1.75,false); // arc:円を書くもの、x,y は中心、角度のスタート＆ストップを記載
   c1.fillStyle = 'rgb(255,255,0)';
   c1.fill();
   
