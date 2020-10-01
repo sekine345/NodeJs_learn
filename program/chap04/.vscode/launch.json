@@ -3,37 +3,37 @@
     "configurations": [
 
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample04_01",
             "file": "${workspaceFolder}/sample04_01/index.html"
         },
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample04_03",
             "file": "${workspaceFolder}/sample04_03/index.html"
         },
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample04_04",
             "file": "${workspaceFolder}/sample04_04/index.html"
         },
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample04_05",
             "file": "${workspaceFolder}/sample04_05/index.html"
         },
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample04_06",
             "file": "${workspaceFolder}/sample04_06/index.html"
         },
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample04_07",
             "file": "${workspaceFolder}/sample04_07/index.html"

@@ -1,4 +1,5 @@
 // プログラム全体で使用する変数
+// プログラム全体から変数を共有
 var c1;        // 2d 描画コンテキスト
 var balls;     // 全 ball を格納する配列
 var number_of_balls; // ball の数
@@ -6,14 +7,14 @@ var number_of_balls; // ball の数
 // ballのクラスの定義
 // 初期化
 function ball() {
-  this.x = Math.random() * 570 + 10;
+  this.x = Math.random() * 570 + 10; // this -> ballのなかの、python の self のような
   this.y = Math.random() * 570 + 10;
   this.vx = Math.random() * 50 - 25;
   this.vy = Math.random() * 50 - 25;
 }
 
 // move : 移動
-ball.prototype.move = function() {
+ball.prototype.move = function() { // メソッドの追加、prototypeを使って追加している
   if (this.x < 10  || this.x > 580) {
     this.vx = - this.vx;
   }
@@ -51,7 +52,7 @@ function tick1() {
   // 20個の円についてのループ
   var n;
   for (n = 0; n < number_of_balls; n++) {
-    // ball を移動し、描画する
+    // ball を移動し、描画する , balls配列の一つ一つのメソッドを実行している
     balls[n].move();
     balls[n].show();     
   }
