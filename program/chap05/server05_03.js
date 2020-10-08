@@ -44,5 +44,6 @@ http_server.on('request',
 // listen 開始
 console.log('server05_03.js 開始'); 
 http_server.listen(TEST_SERVER_PORT, TEST_SERVER_IP); 
+//listen で初めてページにアクセスできる
 // サーバーが動作していることをコンソールに表示する
 console.log('http://' + TEST_SERVER_IP + ':' + TEST_SERVER_PORT); 

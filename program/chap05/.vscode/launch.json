@@ -17,10 +17,10 @@
             "program": "${workspaceFolder}/server05_03.js"
         },
         {
-                "type": "node",
-                "request": "launch",
-                "name": "server05_04",
-                "program": "${workspaceFolder}/server05_04.js"
+            "type": "node",
+            "request": "launch",
+            "name": "server05_04",
+            "program": "${workspaceFolder}/server05_04.js"
         }
     ]
 }

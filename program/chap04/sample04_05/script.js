@@ -7,14 +7,16 @@ var number_of_balls; // ball の数
 // ballのクラスの定義
 // 初期化
 function ball() {
-  this.x = Math.random() * 570 + 10; // this -> ballのなかの、python の self のような
+  this.x = Math.random() * 570 + 10;
   this.y = Math.random() * 570 + 10;
   this.vx = Math.random() * 50 - 25;
   this.vy = Math.random() * 50 - 25;
+  // this -> ballのなかの、python の self のような
 }
 
 // move : 移動
-ball.prototype.move = function() { // メソッドの追加、prototypeを使って追加している
+ball.prototype.move = function() {
+  // メソッドの追加、prototypeを使って追加している
   if (this.x < 10  || this.x > 580) {
     this.vx = - this.vx;
   }
