@@ -5,7 +5,7 @@
 // ファイル名から content-type を得る
 function get_type_str(fn1) { 
     // 拡張子と type_str の辞書配列
-    var ext_table = { 
+    var ext_table = { // 拡張子:contentType
         'html': 'text/html', 
         'htm' : 'text/htm', 
         'css' : 'text/css', 
@@ -21,6 +21,8 @@ function get_type_str(fn1) {
         // 拡張子 extension で 辞書 ext_table を引くことで
         // type_str を得る
     var type_str = ext_table[ext2.toLowerCase()]; 
+    // python の辞書型
+    // .toLowerCase(): 文字列を小文字に変換
     if(type_str === undefined){ 
         type_str = 'text/plain';
     }; 
@@ -46,6 +48,7 @@ http_server.on('request',
         var url1 = req.url;
         // urlの最後が '/' ならその後に index.html をつける
         url1 = (url1.substring(url1.length - 1, 1) === '/')?url1 + 'index.html' : url1; 
+        // ３項演算子、(条件式)?(True ならここの処理) : (Falseならここの処理)
         // ファイルを読み取り、その結果によって処理
         file_sys.readFile('.' + url1,'binary',
             // 読み取り結果を処理する無名関数

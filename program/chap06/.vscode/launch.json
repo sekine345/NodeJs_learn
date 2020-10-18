@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample06_01",
             "file": "${workspaceFolder}/sample06_01/index.html"
         },
         {
-            "type": "edge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample06_02",
             "file": "${workspaceFolder}/sample06_02/index.html"

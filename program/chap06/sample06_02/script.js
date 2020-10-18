@@ -1,7 +1,11 @@
 // jQuery による動作の指定
-$( "#aaa" ).click(function() {
+$( "#aaa" ).click(function() { 
+  //ヘッダーのような部分, aaa という id に対して動作
+  // .click(): クリックされたときにどんな動作をするか、今回は無名関数
   if ( $( "#fff" ).is( ":hidden" ) ) {
+    // fff が隠れていたら
     $( "#fff" ).show( "slow" );
+    //ゆっくり見せて
   } else {
     $( "#bbb"  ).slideUp();
   }
